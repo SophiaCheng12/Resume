@@ -36,6 +36,10 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+
+
+
+/* css */
 .container{
  
 	display:flex;
@@ -422,7 +426,6 @@ word-spacing:1rem
 	height:15rem;
 	line-height:2rem
 }
-
 .portfolios{
 
 	margin-top:2rem;
@@ -503,36 +506,35 @@ margin-left:-5rem
 }
  
 
-
-
 @media (max-width: 576px) {
-
  .container{
  
 	display:flex;
 	flex-direction:column;
   align-items:flex-start;
 	margin-top:3rem;
-	margin-left:1rem;
-	margin-right:1rem;
-  height:auto
+	margin-left:-2rem;
+  height:auto;
+	width:510px 
 }
 .information{
-	
+
 	width:32rem;
-	height:14.5rem
+	height:14.5rem;
+	padding-left:2rem
 }
 .iconColor{
 	color:#c6e5d9
 	}
 .github{
-	margin-left:27rem;
+	margin-left:24.6rem;
 }
 .introduction{
-	
+
 	width:32rem;
-	height:85rem;
-	margin-bottom:2rem
+	height:90rem;
+	margin-bottom:2rem;
+	padding-left:2rem
 } 
 .introductionText{
 		margin-bottom:0.4rem
@@ -542,24 +544,27 @@ margin-left:-5rem
 
 }
 .chinese{
+	 
 	border-right:1px solid transparent;
-  width:31.5rem;
-	height:35rem;
+  width:29.5rem;
+	height:38rem;
 	font-size:1.6rem;
 	margin-bottom:2rem
 }
 .english{
+	
 	border-top:1px solid #dddfe6;
 	padding-top:1.5rem; 
-	width:31.5rem;
-	height:43rem;
+	width:29.5rem;
+	height:45.5rem;
 	font-size:1.6rem;
 }
  .skills{
 	
 	width:32rem;
-	height:50.5rem;
+	height:51.5rem;
 	margin-top:-1rem;
+	padding-left:2rem
 } 
 .skill{
 	display:block;
@@ -568,26 +573,27 @@ margin-left:-5rem
 	margin-bottom:0.4rem
 }
 .computerSkill{
+	
 	border-bottom:1px solid #dddfe6;
 	border-right:1px solid transparent;
-	width:31.8rem;
-	height:22.4rem;
+	width:29.6rem;
+	height:24.3rem;
   font-size:1.6rem; 
 	} 
 .computer{
 	
-	width:31.5rem;
+	width:29.6rem;
 	height:10rem;
 	margin-bottom:0.4rem
 }
 .certificate{
 
-	width:31.5rem;
+	width:29.6rem;
 	height:10.5rem;
 }
 .otherSkill{
 	
-	width:31.8rem;
+	width:29.6rem;
 	height:23rem;
   font-size:1.6rem;
 	margin-right:1rem;
@@ -595,13 +601,13 @@ margin-left:-5rem
 }
 .other{
 	
-  width:31.5rem;
+  width:29.6rem;
 	height:10.5rem;
 	margin-bottom:0.4rem
 }
 .license{
 	
-	width:31.5rem;
+	width:29.6rem;
 	height:12rem;
 }
 
@@ -609,7 +615,8 @@ margin-left:-5rem
 	
 	margin-top:2.5rem;
 	width:32rem;
-	height:25rem
+	height:25rem;
+	padding-left:2rem
 }
 .portfolioContent{
  display:block; 
@@ -639,18 +646,19 @@ margin-left:-5rem
  margin-left:0rem; 
 }
 .experience{
-
+ 
 	width:32rem;
 	height:73rem;
 	margin-top:-0.5rem;
+	padding-left:2rem
 } 
 
 .date{
-	margin-left:17.5rem;
+	margin-left:17rem;
 	word-spacing:0rem ;
 }
 .administrationDate{
-		margin-left: 6.5rem;
+		margin-left: 6rem;
 		 word-spacing:0rem ; 
 }
 .telemarketerDate{
@@ -658,11 +666,11 @@ margin-left:-5rem
 		word-spacing:0rem ;
 }
 .telemarketer2Date{
-		margin-left:10.5rem;
+		margin-left:10rem;
 		word-spacing:0rem ;
 }
 .nurseDate{
-		margin-left:9rem;
+		margin-left:8.5rem;
 		word-spacing:0rem ;
 } 
 .title{
@@ -673,26 +681,54 @@ margin-left:-5rem
 }
 
 .training{
-	 
+	
 	width:32rem;
 	height:26rem;
 	margin-top: 0.5rem;
-	margin-bottom: 0.5rem
+	margin-bottom: 0.5rem;
+	 padding-left:2rem 
 } 
 .education{
-	width:32rem;
-	height:11rem;
+  width:32rem;
+	height:12rem;
 }
-.educationTitle{
-	position:relative
+.iconTitle{
+	padding-left:2rem
+}
+.educationFlex{
+	display:flex;
+	width:31rem;
 }
 .educationDate{
  margin-top:0.6rem;
- margin-left:-7.5rem;
+ margin-left:2.5rem;   
+ width:7rem; 
  word-spacing:0rem ;
+ }
+ .educationRelative{
+	position:relative; 
+}
+.educationTitleH2{
+	position:absolute;
+	white-space: nowrap;
+	left:2rem
+}
+.educationRelative2{
+	position:relative; 
 }
 .educationTitleH3{
+	position:absolute;
+	left:2rem;
+	top:2rem;
   white-space: nowrap
 }
+.educationRelative3{
+		position:relative; 
 }
-
+.educationTitleAbsolute{
+	position:absolute;
+	left:2rem;
+	top:4rem;
+}
+ 
+}
