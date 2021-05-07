@@ -596,9 +596,9 @@ margin-left:-5rem
  .skills{
 	border:2px solid orange;
 	width:32rem;
-	height:51.5rem;
+	height:53.7rem;
 	margin-top:-1rem;
-	padding-left:3rem
+	/* padding-left:3rem */
 } 
 .skill{
 	display:block;
@@ -648,9 +648,9 @@ margin-left:-5rem
 .portfolios{
 	border:3px solid blue;
 	margin-top:2.5rem;
-	width:33rem;
+	width:32.2rem;
 	height: 71rem;
-	padding-left:3rem
+	/* padding-left:3rem */
 }
 .portfolioContent{
  display:block; 
@@ -708,7 +708,7 @@ margin-left:-5rem
     width:32rem;
 	height:73rem;
 	margin-top:-0.5rem;
-	padding-left:3rem
+	/* padding-left:3rem */
 } 
 
 .date{
@@ -744,16 +744,16 @@ margin-left:-5rem
 	height:33rem;
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
-	padding-left:3rem 
+	/* padding-left:3rem  */
 } 
 .education{
-	border:3px solid blue;
+  border:3px solid blue;
   width:32rem;
   height:12rem;
 	
 }
 .iconTitle{
-padding-left:3rem
+/* padding-left:3rem */
 }
 .educationFlex{
 	display:flex;
