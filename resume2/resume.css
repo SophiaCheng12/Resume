@@ -439,7 +439,7 @@ word-spacing:1rem
 	line-height:2rem
 }
 .portfolios{
-	/* border:1px solid red; */
+	/* border:2px solid red; */
    margin-top:2rem;
 	width:44.5rem;
 	height:42rem;
@@ -546,14 +546,16 @@ margin-left:-5rem
 	flex-direction:column;
     align-items:center;
 	margin-top:3rem;
-	margin-left:-2rem;
+	/* margin-left:-2rem; */
     height:auto;
-	width:530;
+	/* width:530; */
+	border:2px solid red;
 }
 .information{
     width:32rem;
 	height:14.5rem;
-	padding-left:3rem
+	/* padding-left:3rem; */
+	border:2px solid blue;
 }
 .iconColor{
 	color:#c6e5d9
@@ -562,11 +564,11 @@ margin-left:-5rem
 	margin-left:23rem;
 }
 .introduction{
-
+	border:2px solid green;
 	width:32rem;
 	height:90rem;
 	margin-bottom:2rem;
-	padding-left:3rem
+	/* padding-left:3rem */
 } 
 .introductionText{
 		margin-bottom:0.4rem
@@ -576,7 +578,7 @@ margin-left:-5rem
 
 }
 .chinese{
-	 
+	border:2px solid purple;
 	border-right:1px solid transparent;
   width:29.5rem;
 	height:38rem;
@@ -584,7 +586,7 @@ margin-left:-5rem
 	margin-bottom:2rem
 }
 .english{
-	
+	border:2px solid yellow;
 	border-top:1px solid #dddfe6;
 	padding-top:1.5rem; 
 	width:29.5rem;
@@ -592,7 +594,7 @@ margin-left:-5rem
 	font-size:1.6rem;
 }
  .skills{
-	
+	border:2px solid orange;
 	width:32rem;
 	height:51.5rem;
 	margin-top:-1rem;
@@ -605,7 +607,7 @@ margin-left:-5rem
 	margin-bottom:0.4rem
 }
 .computerSkill{
-	
+	border:3px solid blue;
 	border-bottom:1px solid #dddfe6;
 	border-right:1px solid transparent;
 	width:29.6rem;
@@ -624,7 +626,7 @@ margin-left:-5rem
 	height:10.5rem;
 }
 .otherSkill{
-	
+	border:2px solid yellow;
 	width:29.6rem;
 	height:23rem;
   font-size:1.6rem;
@@ -644,6 +646,7 @@ margin-left:-5rem
 }
 
 .portfolios{
+	border:3px solid blue;
 	margin-top:2.5rem;
 	width:33rem;
 	height: 71rem;
@@ -701,6 +704,7 @@ margin-left:-5rem
  margin-left:0rem; 
 }
 .experience{
+	border:3px solid yellow;
     width:32rem;
 	height:73rem;
 	margin-top:-0.5rem;
@@ -735,6 +739,7 @@ margin-left:-5rem
 }
 
 .training{
+	border:3px solid blue;
 	width:32rem;
 	height:33rem;
 	margin-top: 0.5rem;
@@ -742,6 +747,7 @@ margin-left:-5rem
 	padding-left:3rem 
 } 
 .education{
+	border:3px solid blue;
   width:32rem;
   height:12rem;
 	
