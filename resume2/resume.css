@@ -544,15 +544,15 @@ margin-left:-5rem
  .container{ 
    display:flex;
 	flex-direction:column;
-    align-items:center;
+    align-items:center;                         
 	margin-top:3rem;
 	/* margin-left:-2rem; */
     height:auto;
-	/* width:530; */
+	/* width:576px; */
 	border:2px solid red;
 }
 .information{
-    width:32rem;
+    width:28rem;
 	height:14.5rem;
 	/* padding-left:3rem; */
 	border:2px solid blue;
@@ -564,9 +564,9 @@ margin-left:-5rem
 	margin-left:23rem;
 }
 .introduction{
-	border:2px solid green;
-	width:32rem;
-	height:90rem;
+	border:5px solid green;
+	width:28rem;
+	height:93.6rem;
 	margin-bottom:2rem;
 	/* padding-left:3rem */
 } 
@@ -580,8 +580,8 @@ margin-left:-5rem
 .chinese{
 	border:2px solid purple;
 	border-right:1px solid transparent;
-  width:29.5rem;
-	height:38rem;
+    width:27.6rem;
+	height:40.5rem;
 	font-size:1.6rem;
 	margin-bottom:2rem
 }
@@ -589,13 +589,13 @@ margin-left:-5rem
 	border:2px solid yellow;
 	border-top:1px solid #dddfe6;
 	padding-top:1.5rem; 
-	width:29.5rem;
-	height:45.5rem;
+	width:27.6rem;
+	height:47.6rem;
 	font-size:1.6rem;
 }
  .skills{
 	border:2px solid orange;
-	width:32rem;
+	width:28rem;
 	height:53.7rem;
 	margin-top:-1rem;
 	/* padding-left:3rem */
@@ -610,9 +610,10 @@ margin-left:-5rem
 	border:3px solid blue;
 	border-bottom:1px solid #dddfe6;
 	border-right:1px solid transparent;
-	width:29.6rem;
-	height:24.3rem;
+	width:27.6rem;
+	height:23rem;
   font-size:1.6rem; 
+  margin-top:1rem;
 	} 
 .computer{
 	
@@ -620,14 +621,20 @@ margin-left:-5rem
 	height:10rem;
 	margin-bottom:0.4rem
 }
+.computerUl{
+	font-size:1rem;
+}
 .certificate{
 
 	width:29.6rem;
 	height:10.5rem;
 }
+.certificateUl{
+	font-size:1rem;
+}
 .otherSkill{
-	border:2px solid yellow;
-	width:29.6rem;
+	 border:2px solid yellow; 
+	width:27.6rem;
 	height:23rem;
   font-size:1.6rem;
 	margin-right:1rem;
@@ -639,17 +646,24 @@ margin-left:-5rem
 	height:10.5rem;
 	margin-bottom:0.4rem
 }
+.otherUl{
+	margin-top:1.2rem;
+	font-size:1rem
+}
 .license{
 	
 	width:29.6rem;
 	height:12rem;
 }
+.licenseUl{
+	font-size:1rem
+}
 
 .portfolios{
 	border:3px solid blue;
 	margin-top:2.5rem;
-	width:32.2rem;
-	height: 71rem;
+	width:28rem;
+	height: 72.5rem;
 	/* padding-left:3rem */
 }
 .portfolioContent{
@@ -675,21 +689,21 @@ margin-left:-5rem
 	margin-top:3rem;
 }
 .portfolioText{
- font-size:1.1rem; 
+ font-size:1rem; 
  margin-top:3rem;
  margin-left:1rem;
  line-height: 2rem
 }
 .portfolioText2{
 	/* border:1px solid red; */
-	font-size:1.1rem; 
+	font-size:1rem; 
 	margin-top:0.6rem;
 	line-height: 2rem;
 	width:34.3rem;
 	padding-left:7rem;
    }
 .portfolioText3{
-	font-size:1.1rem; 
+	font-size:1rem; 
 	margin-top:3rem;
 	padding-left:6.9rem;
 	line-height: 2rem
@@ -705,8 +719,8 @@ margin-left:-5rem
 }
 .experience{
 	border:3px solid yellow;
-    width:32rem;
-	height:73rem;
+    width:28rem;
+	height:79rem;
 	margin-top:-0.5rem;
 	/* padding-left:3rem */
 } 
@@ -740,15 +754,15 @@ margin-left:-5rem
 
 .training{
 	border:3px solid blue;
-	width:32rem;
-	height:33rem;
-	margin-top: 0.5rem;
+	width:28rem;
+	height:29rem;
+	margin-top: 2rem;
 	margin-bottom: 0.5rem;
 	/* padding-left:3rem  */
 } 
 .education{
   border:3px solid blue;
-  width:32rem;
+  width:28rem;
   height:12rem;
 	
 }
@@ -761,8 +775,8 @@ margin-left:-5rem
 }
 .educationDate{
  margin-top:0.6rem;
- margin-left:4rem;   
- width:6rem; 
+ margin-left:1.5rem;   
+ width:5rem; 
  word-spacing:0rem ;
  }
  .educationRelative{
