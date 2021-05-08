@@ -547,25 +547,21 @@ margin-left:-5rem
 	flex-direction:column;
     align-items:flex-start;                         
 	margin-top:3rem;
-	/* margin-left:-2rem; */
     height:auto;
-	/* width:576px; */
-	border:2px solid red;
 }
 .information{
     width:28rem;
 	height:14.5rem;
-	/* padding-left:3rem; */
-	border:2px solid blue;
+	
 }
 .titleIcon{
 	font-size:1.5rem;
 }
 .name{
-	font-size:0.8rem;
+	font-size:0.9rem;
 }
 .info{
-	font-size:1rem;
+	font-size:1.1rem;
 
 }
 .iconColor{
@@ -575,11 +571,11 @@ margin-left:-5rem
 	margin-left:23rem;
 }
 .introduction{
-	border:5px solid green;
+	
 	width:28rem;
 	height:93.6rem;
 	margin-bottom:2rem;
-	/* padding-left:3rem */
+	
 } 
 .introductionText{
 		margin-bottom:0.4rem
@@ -589,27 +585,30 @@ margin-left:-5rem
 
 }
 .chinese{
-	border:2px solid purple;
+	
 	border-right:1px solid transparent;
     width:27.6rem;
-	height:40.5rem;
-	font-size:1.6rem;
+	height:37rem;
+	font-size:1.4rem;
 	margin-bottom:2rem
 }
+.chineseText{
+	font-size:1.2rem;
+}
 .english{
-	border:2px solid yellow;
+	
 	border-top:1px solid #dddfe6;
 	padding-top:1.5rem; 
 	width:27.6rem;
 	height:47.6rem;
-	font-size:1.6rem;
+	font-size:1.4rem;
 }
  .skills{
-	border:2px solid orange;
+	
 	width:28rem;
 	height:53.7rem;
-	margin-top:-1rem;
-	/* padding-left:3rem */
+	margin-top:-2rem;
+	
 } 
 .skill{
 	display:block;
@@ -618,7 +617,7 @@ margin-left:-5rem
 	margin-bottom:0.4rem
 }
 .computerSkill{
-	border:3px solid blue;
+	
 	border-bottom:1px solid #dddfe6;
 	border-right:1px solid transparent;
 	width:27.6rem;
@@ -627,7 +626,7 @@ margin-left:-5rem
   margin-top:1rem;
 	} 
 .computer{
-	
+	font-size:1.4rem;
 	width:27.6rem;
 	height:10rem;
 	margin-bottom:0.4rem
@@ -636,7 +635,7 @@ margin-left:-5rem
 	font-size:1rem;
 }
 .certificate{
-
+	font-size:1.4rem;
 	width:27.6rem;
 	height:10.5rem;
 }
@@ -644,10 +643,10 @@ margin-left:-5rem
 	font-size:1rem;
 }
 .otherSkill{
-	 border:2px solid yellow; 
+	
 	width:27.6rem;
 	height:23rem;
-  font-size:1.6rem;
+  font-size:1.4rem;
 	margin-right:1rem;
   margin-top: 3rem
 }
@@ -662,7 +661,7 @@ margin-left:-5rem
 	font-size:1rem
 }
 .license{
-	
+	font-size:1.4rem;
 	width:27.6rem;
 	height:12rem;
 }
@@ -671,12 +670,10 @@ margin-left:-5rem
 }
 
 .portfolios{
-	border:3px solid blue;
-	margin-top:2.5rem;
+	margin-top:2rem;
 	width:28rem;
 	height: 72.5rem;
-	/* padding-left:3rem */
-}
+	}
 .portfolioContent{
  display:block; 
 
@@ -729,30 +726,42 @@ margin-left:-5rem
  margin-left:0rem; 
 }
 .experience{
-	border:3px solid yellow;
+	
     width:28rem;
 	height:79rem;
 	margin-top:-0.5rem;
-	/* padding-left:3rem */
+	
 } 
-
+.title{
+	font-size:1.4rem; 
+}
 .date{
+	font-size:1.4rem;
 	margin-left:17rem;
 	word-spacing:0rem ;
 }
+.description2{
+	margin-top:2rem;
+}
 .administrationDate{
-		margin-left: 6rem;
+	font-size:1.4rem;
+		margin-left: 7rem;
 		 word-spacing:0rem ; 
 }
 .telemarketerDate{
-		margin-left:3.6rem;
+	    font-size:1.4rem;
+		margin-left:2.5rem;
+		width:6rem;
 		word-spacing:0rem ;
 }
 .telemarketer2Date{
-		margin-left:10rem;
+	    font-size:1.4rem;
+		margin-left:9.7rem;
 		word-spacing:0rem ;
+		width:6rem;
 }
 .nurseDate{
+	    font-size:1.4rem;
 		margin-left:8.5rem;
 		word-spacing:0rem ;
 } 
@@ -764,30 +773,37 @@ margin-left:-5rem
 }
 
 .training{
-	border:3px solid blue;
+	
 	width:28rem;
 	height:29rem;
-	margin-top: 2rem;
+	margin-top: -2.5rem;
 	margin-bottom: 0.5rem;
 	/* padding-left:3rem  */
 } 
+.trainingTitle{
+	font-size:0.8rem;
+}
+.trainingTitle2{
+	font-size:1.3rem;
+}
+.trainingTitle3{
+	font-size:0.8rem;
+}
 .education{
-  border:3px solid blue;
+  margin-top: -1rem;
   width:28rem;
   height:12rem;
 	
-}
-.iconTitle{
-/* padding-left:3rem */
 }
 .educationFlex{
 	display:flex;
 	width:28rem;
 }
 .educationDate{
+font-size:1.4rem;
  margin-top:0.6rem;
- margin-left:1.5rem;   
- width:5rem; 
+ margin-left:1rem;   
+ width:5.5rem; 
  word-spacing:0rem ;
  }
  .educationRelative{
@@ -796,7 +812,8 @@ margin-left:-5rem
 .educationTitleH2{
 	position:absolute;
 	white-space: nowrap;
-	left:2rem
+	left:2rem;
+	font-size:1.3rem;
 }
 .educationRelative2{
 	position:relative; 
