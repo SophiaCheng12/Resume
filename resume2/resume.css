@@ -197,7 +197,7 @@ list-style-type:square;
 	margin-top:1.5rem;
 	margin-bottom:2rem;
 	width:75.5rem;
-	height:38rem;
+	height:49rem;
 }
 .portfolioContent{
 display:flex;
@@ -209,6 +209,13 @@ margin-top:1rem
 	margin-top:0.5rem;
 	margin-left:2rem
 }
+.portfolioImg1{
+	width:39rem;
+	height:10rem;
+}
+.portfolioContent1{
+	margin-left:-3rem
+}
 .portfolioImg img{
 	width:20rem;
 	height:10rem;
@@ -216,18 +223,24 @@ margin-top:1rem
 .portfolioText{
  font-size:1.3rem; 
  margin-top:0.5rem;
- margin-left:1rem;
+ margin-left:0.8rem;
+ line-height: 2rem
+}
+.portfolioText1{
+ font-size:1.3rem; 
+ margin-top:0.5rem;
+ margin-left:-1rem;
  line-height: 2rem
 }
 .portfolioText2{
 	font-size:1.3rem; 
-	margin-top:3rem;
+	margin-top:0.5rem;
 	margin-left:-6rem;
 	line-height: 2rem
    }
 .portfolioText3{
 	font-size:1.3rem; 
-	margin-top:3rem;
+	margin-top:0.5rem;
 	margin-left:-6rem;
 	line-height: 2rem
 }
@@ -346,10 +359,10 @@ word-spacing:1rem
 
 /* RWD */
 @media (max-width: 768px) {
-	body{
+body{
 		width:100%;
 	}
-	.container{
+.container{
 		display:flex;
 		flex-direction:column;
 		/* align-items:center; */
@@ -444,7 +457,7 @@ word-spacing:1rem
 	/* border:2px solid red; */
    margin-top:2rem;
 	width:44.5rem;
-	height:42rem;
+	height:55.5rem;
 	
 }
 .portfolioContent{
@@ -453,6 +466,12 @@ display:flex
 .portfolioImg{
 	margin-top:1rem;
 	margin-left:2rem
+}
+.portfolioImg1{
+	width:14.6rem;
+	height:10rem;
+	/* margin-right:0.8rem; */
+	margin-bottom:1.5rem;
 }
 .portfolioImg2{
 	width:13rem;
@@ -470,17 +489,24 @@ display:flex
  margin-left:1rem;
  line-height: 2rem
 }
+.portfolioText1{
+	font-size:1.1rem; 
+	margin-top:0.6rem;
+	width:34.3rem;
+   padding-left:2rem; 
+	line-height: 2rem
+   }
 .portfolioText2{
 	/* border:1px solid red; */
 	font-size:1.1rem; 
 	margin-top:0.6rem;
 	line-height: 2rem;
 	width:34.3rem;
-	padding-left:100px
+	padding-left:6.4rem;
    }
 .portfolioText3{
 	font-size:1.1rem; 
-	margin-top:3rem;
+	margin-top:0.6rem;
 	padding-left:112px;
 	line-height: 2rem
 }
@@ -672,7 +698,7 @@ margin-left:-5rem
 .portfolios{
 	margin-top:2rem;
 	width:28rem;
-	height: 72.5rem;
+	height: 98.5rem;
 	}
 .portfolioContent{
  display:block; 
@@ -684,6 +710,13 @@ margin-left:-5rem
 	width:25rem;
 	height:7.6rem
 } 
+.portfolioImg1{
+	width:25rem;
+	height:7.6rem;
+	margin-right:0.8rem;
+	margin-bottom:3rem;
+	margin-top:3rem;
+}
 .portfolioImg2{
 	width:25rem;
 	height:7.6rem;
@@ -702,6 +735,13 @@ margin-left:-5rem
  margin-left:1rem;
  line-height: 2rem
 }
+.portfolioText1{
+	font-size:1rem; 
+	margin-top:0.6rem;
+	line-height: 2rem;
+	width:34.3rem;
+	padding-left:2rem;
+   }
 .portfolioText2{
 	/* border:1px solid red; */
 	font-size:1rem; 
