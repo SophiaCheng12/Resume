@@ -464,11 +464,12 @@ body{
 display:flex 
 }
 .portfolioImg{
+	width:27rem;
 	margin-top:1rem;
 	margin-left:2rem
 }
 .portfolioImg1{
-	width:14.6rem;
+	width:14.9rem;
 	height:10rem;
 	/* margin-right:0.8rem; */
 	margin-bottom:1.5rem;
@@ -486,14 +487,14 @@ display:flex
 .portfolioText{
  font-size:1.1rem; 
  margin-top:0.5rem;
- margin-left:1rem;
+ margin-left:1.3rem;
  line-height: 2rem
 }
 .portfolioText1{
 	font-size:1.1rem; 
 	margin-top:0.6rem;
 	width:34.3rem;
-   padding-left:2rem; 
+    padding-left:1.8rem; 
 	line-height: 2rem
    }
 .portfolioText2{
