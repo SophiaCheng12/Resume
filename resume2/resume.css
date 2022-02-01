@@ -618,24 +618,24 @@ ul {
   }
   .frontendEngineerDate {
     margin-left: 11.5rem;
-    /* word-spacing: 1rem;
-  white-space: nowrap; */
+    word-spacing: 1.7rem;
   }
+
   .administrationDate {
     margin-left: 8.7rem;
-    word-spacing: 1rem;
+    word-spacing: 1.3rem;
   }
   .telemarketerDate {
     margin-left: 12.5rem;
-    word-spacing: 1rem;
+    word-spacing: 1.5rem;
   }
   .telemarketer2Date {
     margin-left: 13rem;
-    word-spacing: 1rem;
+    word-spacing: 1.3rem;
   }
   .nurseDate {
     margin-left: 11.4rem;
-    word-spacing: 1rem;
+    word-spacing: 1.4rem;
   }
   .training {
     width: 44.5rem;
@@ -780,7 +780,7 @@ ul {
   .portfolios {
     margin-top: 2rem;
     width: 28rem;
-    height: 98.5rem;
+    height: 100.5rem;
   }
   .portfolioContent {
     display: block;
