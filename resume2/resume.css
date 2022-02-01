@@ -1,874 +1,959 @@
 /* css reset */
-*,*:after,*:before{
+*,
+*:after,
+*:before {
   box-sizing: border-box;
 }
-img{
-	max-width:100%;
-	height:auto
+img {
+  max-width: 100%;
+  height: auto;
 }
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
-
-
 
 /* css */
-body{
-	width:100%;
-}
-.container{
-    display:flex;
-	flex-direction:column;
-    /* align-items:center; */
-	align-items:start;
-	margin-top:3rem;
-	margin-left:2rem;
-}
-.titleIcon{
-	font-size:2rem;
-	margin-left:0.5rem;
-	font-weight:bold;
-	}
-.iconColor{
-	color:#9baec8
-	}
-.information{
-	
-	width:75.5rem;
-	height:14rem
-}
-.name{
-	margin-left:0.7rem;
-	margin-top:0.5rem;
-	margin-bottom:0.5rem
-}
-.info{
-	margin-left:2rem;
-	line-height:1.6rem;
-	font-size:1.3rem;
-}
-ul{
-list-style-type:square;
-}
-.github{
-	margin-left:70rem;
-	margin-right:0.5rem;
-	color:gray
-	}
-.medium{
-  color:gray
-	}
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
 
-.introduction{
-
-	width:75.5rem;
-	height:39rem
+body {
+  width: 100%;
 }
-.introductionText{
-		margin-bottom:0.8rem
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* align-items:start; */
+  margin-top: 3rem;
+  margin-left: 2rem;
 }
-.selfIntroduction{
-	display:flex;
-
+.titleIcon {
+  font-size: 2rem;
+  margin-left: 0.5rem;
+  font-weight: bold;
 }
-.chinese{
-	border-right:1px solid #dddfe6;
-	width:37rem;
-	height:32.6rem;
-	font-size:1.6rem;
-	margin-right:25px;
+.iconColor {
+  color: #9baec8;
 }
-.chineseText{
-	margin-top:1rem;
-  font-size:1.3rem ;
-	line-height:2.5rem;
-	padding-right: 1rem
+.information {
+  width: 75.5rem;
+  height: 14rem;
 }
-.english{
-
-	width:37rem;
-	height:35.6rem;
-	font-size:1.6rem;
+.name {
+  margin-left: 0.7rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
-.englishText{
-	margin-top:1rem;
-  font-size:1.3rem ;
-	line-height:2rem
+.info {
+  margin-left: 2rem;
+  line-height: 1.6rem;
+  font-size: 1.3rem;
 }
-.skills{
-	
-	width:75.5rem;
-	height:26.7rem
+ul {
+  list-style-type: square;
 }
-.skill{
-	display:flex;
+.github {
+  margin-left: 70rem;
+  margin-right: 0.5rem;
+  color: gray;
 }
-.skillText{
-	margin-bottom:0.8rem
-}
-.computerSkill{
-
-	width:24.3rem;
-	height:23.7rem;
-  font-size:1.6rem;
-	margin-right:15rem
-}
-.computer{
-	
-	width:24.3rem;
-	height:9.6rem;
-	margin-bottom:0.4rem
-}
-.computerContent{
-	display:flex;
-	font-size:1.2rem ;
-	margin-left:2rem;
-} 
-.computerUl{
-	margin-top:1rem;
-	margin-right:2.5rem
-} 
-.certificate{
-
-	width:24.3rem;
-	height:13.5rem;
-}
-.certificateUl{
-	margin-top:1rem;
-	margin-left:2rem;
-	font-size:1.2rem ;
-}
-.otherSkill{
-	
-	width:24.3rem;
-	height:23.7rem;
-  font-size:1.6rem;
-}
-.other{
-
-  width:24.3rem;
-	height:9.6rem;
-	margin-bottom:0.4rem
-}
-.otherUl{
-	margin-top:0.5rem;
-	margin-left:2rem;
-	font-size:1.2rem ;
-}
-.license{
-	
-	width:24.3rem;
-	height:13.5rem;
-}
-.licenseUl{
-	margin-top:1rem;
-	margin-left:2rem;
-	font-size:1.2rem ;
-}
-.portfolios{
-	
-	margin-top:1.5rem;
-	margin-bottom:2rem;
-	width:75.5rem;
-	height:49rem;
-}
-.portfolioContent{
-display:flex;
-margin-top:1rem
-}
-.portfolioImg{
-    width:27rem;
-	height:10rem;
-	margin-top:0.5rem;
-	margin-left:2rem
-}
-.portfolioImg1{
-	width:39rem;
-	height:10rem;
-}
-.portfolioContent1{
-	margin-left:-3rem
-}
-.portfolioImg img{
-	width:20rem;
-	height:10rem;
-} 
-.portfolioText{
- font-size:1.3rem; 
- margin-top:0.5rem;
- margin-left:0.8rem;
- line-height: 2rem
-}
-.portfolioText1{
- font-size:1.3rem; 
- margin-top:0.5rem;
- margin-left:-0.5rem;
- line-height: 2rem
-}
-.portfolioText2{
-	font-size:1.3rem; 
-	margin-top:0.5rem;
-	margin-left:-6rem;
-	line-height: 2rem
-   }
-.portfolioText3{
-	font-size:1.3rem; 
-	margin-top:0.5rem;
-	margin-left:-6rem;
-	line-height: 2rem
-}
-.portfolioTextMargin{
- margin-left:5.9rem;
-}
-.portfolioA{
-	text-decoration:none
-}
-.portfolioA:active{
-  color: #d6ecfa
-}
-.experience{
-	width:75.5rem;
-	height:73.5rem;
-	margin-top:0.6rem
-}
-.experienceContent{
-	margin-left:0.8rem;
-	margin-top:0.8rem
-}
-.experienceH1{
- margin-top:2rem;
- margin-bottom:1rem }
-.content{
-	margin-bottom:1.5rem;
-	line-height: 2rem
-}
-.title{
-	margin-bottom:0.3rem;
-}
-.date{
-	margin-left:45rem;
-	word-spacing:1rem ;
-}
-.administrationDate{
-		margin-left:34.8rem;
-		word-spacing:1rem ;
-}
-.telemarketerDate{
-		margin-left:31.6rem;
-		word-spacing:1rem ;
-}
-.telemarketer2Date{
-		margin-left:38rem;
-		word-spacing:1rem ;
-} 
-.nurseDate{
-		margin-left:36.3rem;
-		word-spacing:1rem ;
-}
-.description{
-	margin-top:0.3rem;
-	font-size:1.2rem
-}
-.description div ul{
-	margin-left:2rem
-}
-.housewife{
-	display:flex
+.medium {
+  color: gray;
 }
 
-.administration{
-	display:flex
+.introduction {
+  width: 75.5rem;
+  height: 39rem;
 }
-.telemarketer{
-	display:flex
+.introductionText {
+  margin-bottom: 0.8rem;
 }
-.telemarketer2{
-	display:flex
+.selfIntroduction {
+  display: flex;
 }
-.nurse{
-	display:flex
+.chinese {
+  border-right: 1px solid #dddfe6;
+  width: 37rem;
+  height: 32.6rem;
+  font-size: 1.6rem;
+  margin-right: 25px;
 }
-.training{
-	width:75.5rem;
-	height:28rem;
-	margin-top:-1rem;
+.chineseText {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  padding-right: 1rem;
 }
-.trainingTitle{
- margin-top:0.5rem;
- margin-left:1rem;
+.english {
+  width: 37rem;
+  height: 35.6rem;
+  font-size: 1.6rem;
 }
-.trainingTitle3{
-	margin-top:2rem;
-	margin-left:1rem;
+.englishText {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
 }
-.trainingTitle2{
-	margin-top:0.5rem;
-	font-size: 1.4rem
+.skills {
+  width: 75.5rem;
+  height: 26.7rem;
 }
-.trainingCertificate{
-	margin-top:-0.5rem;
+.skill {
+  display: flex;
 }
-.education{
-	
-	width:75.5rem;
-	height:10.5rem;
-	margin-top:2rem;
+.skillText {
+  margin-bottom: 0.8rem;
 }
-.educationFlex{
-	display:flex
+.computerSkill {
+  width: 24.3rem;
+  height: 23.7rem;
+  font-size: 1.6rem;
+  margin-right: 15rem;
 }
-.educationTitle{
-	margin-top:0.5rem;
-  margin-left:1rem;
-  margin-right:41rem;
+.computer {
+  width: 24.3rem;
+  height: 9.6rem;
+  margin-bottom: 0.4rem;
 }
-.educationTitleH3{
-	margin-top:0.5rem;
+.computerContent {
+  display: flex;
+  font-size: 1.2rem;
+  margin-left: 2rem;
 }
-.educationDate{
-word-spacing:1rem
+.computerUl {
+  margin-top: 1rem;
+  margin-right: 2.5rem;
 }
- 
+.certificate {
+  width: 24.3rem;
+  height: 13.5rem;
+}
+.certificateUl {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+}
+.otherSkill {
+  width: 24.3rem;
+  height: 23.7rem;
+  font-size: 1.6rem;
+}
+.other {
+  width: 24.3rem;
+  height: 9.6rem;
+  margin-bottom: 0.4rem;
+}
+.otherUl {
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+}
+.license {
+  width: 24.3rem;
+  height: 13.5rem;
+}
+.licenseUl {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+}
+.portfolios {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  width: 75.5rem;
+  height: 51rem;
+}
+.portfolioContent {
+  display: flex;
+  margin-top: 1rem;
+}
+.portfolioImg {
+  width: 27rem;
+  height: 10rem;
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+}
+.portfolioImg1 {
+  width: 39rem;
+  height: 10rem;
+}
+
+.talkGeneratorContent {
+  margin-bottom: 3rem !important;
+  /* border: 1px solid transparent; */
+}
+
+.portfolioContent1 {
+  margin-left: -3rem;
+}
+.portfolioImg img {
+  width: 20rem;
+  height: 10rem;
+}
+.portfolioText {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  margin-left: 0.8rem;
+  line-height: 2rem;
+}
+.portfolioText1 {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  margin-left: -0.5rem;
+  line-height: 2rem;
+}
+.portfolioText2 {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  margin-left: -6rem;
+  line-height: 2rem;
+}
+.portfolioText3 {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  margin-left: -6rem;
+  line-height: 2rem;
+}
+.portfolioTextMargin {
+  margin-left: 5.9rem;
+}
+.portfolioA {
+  text-decoration: none;
+}
+.portfolioA:active {
+  color: #d6ecfa;
+}
+.experience {
+  width: 75.5rem;
+  height: 88rem;
+  margin-top: -9rem;
+}
+.experienceContent {
+  margin-left: 0.8rem;
+  margin-top: 0.8rem;
+}
+.experienceH1 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.content {
+  margin-bottom: 1.5rem;
+  line-height: 2rem;
+}
+.title {
+  margin-bottom: 0.3rem;
+}
+.date {
+  margin-left: 45rem;
+  word-spacing: 1rem;
+}
+
+.frontendEngineerDate {
+  margin-left: 37.5rem;
+  word-spacing: 1rem;
+  width: 19rem;
+}
+
+.frontendEngineerTitle {
+  /* width: 10rem; */
+  white-space: nowrap;
+}
+
+.workTreatment {
+  white-space: nowrap;
+}
+
+.administrationDate {
+  margin-left: 34.8rem;
+  word-spacing: 1rem;
+}
+.telemarketerDate {
+  margin-left: 38.5rem;
+  word-spacing: 1rem;
+}
+.telemarketer2Date {
+  margin-left: 38.5rem;
+  word-spacing: 1rem;
+}
+.nurseDate {
+  margin-left: 37rem;
+  word-spacing: 1rem;
+}
+.description {
+  margin-top: 0.3rem;
+  font-size: 1.2rem;
+}
+.description div ul {
+  margin-left: 2rem;
+}
+.housewife,
+.frontendEngineer {
+  display: flex;
+}
+
+.administration {
+  display: flex;
+}
+.telemarketer {
+  display: flex;
+}
+.telemarketer2 {
+  display: flex;
+}
+.nurse {
+  display: flex;
+}
+.training {
+  width: 75.5rem;
+  height: 28rem;
+  margin-top: -1rem;
+}
+.trainingTitle {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+.trainingTitle3 {
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+.trainingTitle2 {
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+}
+.trainingCertificate {
+  margin-top: -0.5rem;
+}
+.education {
+  width: 75.5rem;
+  height: 10.5rem;
+  margin-top: 2rem;
+}
+.educationFlex {
+  display: flex;
+}
+.educationTitle {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 41rem;
+}
+.educationTitleH3 {
+  margin-top: 0.5rem;
+}
+.educationDate {
+  word-spacing: 1rem;
+}
 
 /* RWD */
-@media (max-width: 768px) {
-body{
-		width:100%;
-	}
-.container{
-		display:flex;
-		flex-direction:column;
-		/* align-items:center; */
-		align-items:start;
-		margin-top:3rem;
-	}
-.iconColor{
-	color:#9DC3C1
-	}
-.information{
-	
-	width:44.5rem;
-	height:14.5rem
-}
-.github{
-	margin-left:39.5rem;
-}
-.introduction{
-
-	width:44.5rem;
-	height:64rem
-} 
-.introductionText{
-		margin-bottom:0.4rem
-}
-.selfIntroduction{
-	display:block;
-}
-.chinese{
-  border-right:1px solid transparent;
-	width:44.5rem;
-	height:27rem;
-	font-size:1.6rem;
-	margin-bottom:0.5rem
-}
-.english{
-	
-	width:44.5rem;
-	height:32.5rem;
-	font-size:1.6rem;
-}
-.skills{
-	
-	width:44.5rem;
-	height:29.5rem;
-} 
-.skill{
-	display:flex;
-}
-.skillText{
-	margin-bottom:0.4rem
-}
-.computerSkill{
-	border-right:1px solid #dddfe6;
-	width:23.5rem;
-	height:26.5rem;
-  font-size:1.6rem;
-	margin-right:1.9rem
-}
-.computer{
-	
-	width:21.5rem;
-	height:10.6rem;
-	margin-bottom:0.5rem
-}
-.certificate{
-	
-	width:21.5rem;
-	height:15rem;
-	line-height:1.6rem
-}
-.otherSkill{
-	
-	width:22.5rem;
-	height:26.5rem;
-  font-size:1.6rem;
-	 margin-right:1rem
-}
-.other{
-
-  width:20.5rem;
-	height:10.6rem;
-	margin-bottom:0.5rem
-}
-.license{
-	
-	width:20.5rem;
-	height:15rem;
-	line-height:2rem
-}
-.portfolios{
-	/* border:2px solid red; */
-   margin-top:2rem;
-	width:44.5rem;
-	height:55.5rem;
-	
-}
-.portfolioContent{
-display:flex 
-}
-.portfolioImg{
-	width:27rem;
-	margin-top:1rem;
-	margin-left:2rem
-}
-.portfolioImg1{
-	width:14.9rem;
-	height:10rem;
-	/* margin-right:0.8rem; */
-	margin-bottom:1.5rem;
-}
-.portfolioImg2{
-	width:13rem;
-	height:10rem;
-	margin-right:0.8rem;
-	margin-bottom:1.5rem;
-}
-.portfolioImg3{
-	width:14.5rem;
-	height:10rem;
-}
-.portfolioText{
- font-size:1.1rem; 
- margin-top:0.5rem;
- margin-left:1.3rem;
- line-height: 2rem
-}
-.portfolioText1{
-	font-size:1.1rem; 
-	margin-top:0.6rem;
-	width:34.3rem;
-    padding-left:1.8rem; 
-	line-height: 2rem
-   }
-.portfolioText2{
-	/* border:1px solid red; */
-	font-size:1.1rem; 
-	margin-top:0.6rem;
-	line-height: 2rem;
-	width:34.3rem;
-	padding-left:6.4rem;
-   }
-.portfolioText3{
-	font-size:1.1rem; 
-	margin-top:0.6rem;
-	padding-left:112px;
-	line-height: 2rem
-}
-.portfolioP{
-	white-space: nowrap;
-}
- .portfolioTextMargin2{
- margin-left:5.9rem;
-} 
-.experience{
-   
-	width:44.5rem;
-	height:73.5rem
-}
-.date{
-	margin-left:19rem;
-	word-spacing:1.6rem ;
-}
-.administrationDate{
-		margin-left:9rem;
-		word-spacing:1rem ;
-}
-.telemarketerDate{
-		margin-left:6rem;
-		word-spacing:1rem ;
-}
-.telemarketer2Date{
-		margin-left:13rem;
-		word-spacing:1rem ;
-} 
-.nurseDate{
-		margin-left:11.5rem;
-		word-spacing:1rem ;
-} 
-.training{
-	width:44.5rem;
-	height:28rem
-}
-.education{
-	
-	width:44.5rem;
-	height:11.5rem;
-} 
-.educationFlex{
-	display:flex
-}
-.educationTitle{
-	margin-top:0.5rem;
-  margin-left:1rem;
-  margin-right:20rem;
-}
-.educationTitleH3{
-	margin-top:0.5rem;
-}
-.educationDate{
-margin-left:-5rem
-}
-
-}
- 
-
-@media (max-width: 576px) {
-	
- .container{ 
-   display:flex;
-	flex-direction:column;
-    align-items:flex-start;                         
-	margin-top:3rem;
-    height:auto;
-}
-.information{
-    width:28rem;
-	height:14.5rem;
-	
-}
-.titleIcon{
-	font-size:1.5rem;
-}
-.name{
-	font-size:0.9rem;
-}
-.info{
-	font-size:1.1rem;
-
-}
-.iconColor{
-	color:#c6e5d9
-	}
-.github{
-	margin-left:23rem;
-}
-.introduction{
-	margin-top:1.5rem;
-	width:28rem;
-	height:92rem;
-	margin-bottom:1.5rem;
-	
-} 
-.introductionText{
-		margin-bottom:0.4rem
-}
-.selfIntroduction{
-	display:block;
-
-}
-.chinese{
-	
-	border-right:1px solid transparent;
-    width:27.6rem;
-	height:37rem;
-	font-size:1.4rem;
-	margin-bottom:2rem
-}
-.chineseText{
-	font-size:1.2rem;
-}
-.english{
-	
-	border-top:1px solid #dddfe6;
-	padding-top:1.5rem; 
-	width:27.6rem;
-	height:47.6rem;
-	font-size:1.4rem;
-}
- .skills{
-	
-	width:28rem;
-	height:53.7rem;
-} 
-.skill{
-	display:block;
-}
-.skillText{
-	margin-bottom:0.4rem
-}
-.computerSkill{
-	
-	border-bottom:1px solid #dddfe6;
-	border-right:1px solid transparent;
-	width:27.6rem;
-	height:23rem;
-  font-size:1.6rem; 
-  margin-top:1rem;
-	} 
-.computer{
-	font-size:1.4rem;
-	width:27.6rem;
-	height:10rem;
-	margin-bottom:0.4rem
-}
-.computerUl{
-	font-size:1rem;
-}
-.certificate{
-	font-size:1.4rem;
-	width:27.6rem;
-	height:10.5rem;
-}
-.certificateUl{
-	font-size:1rem;
-}
-.otherSkill{
-	
-	width:27.6rem;
-	height:23rem;
-  font-size:1.4rem;
-	margin-right:1rem;
-  margin-top: 3rem
-}
-.other{
-	
-  width:27.6rem;
-	height:10.5rem;
-	margin-bottom:0.4rem
-}
-.otherUl{
-	margin-top:1.2rem;
-	font-size:1rem
-}
-.license{
-	font-size:1.4rem;
-	width:27.6rem;
-	height:12rem;
-}
-.licenseUl{
-	font-size:1rem
+@media (max-width: 1235px) {
+  body {
+    width: 100%;
+  }
+  .container {
+    display: flex;
+    /* outline: 1px solid blue; */
+    flex-direction: column;
+    /* align-items: center; */
+    align-items: start;
+    margin-top: 3rem;
+  }
+  .iconColor {
+    color: #9dc3c1;
+  }
+  .information {
+    width: 44.5rem;
+    height: 14.5rem;
+  }
+  .github {
+    margin-left: 39.5rem;
+  }
+  .introduction {
+    width: 44.5rem;
+    height: 64rem;
+  }
+  .introductionText {
+    margin-bottom: 0.4rem;
+  }
+  .selfIntroduction {
+    display: block;
+  }
+  .chinese {
+    border-right: 1px solid transparent;
+    width: 44.5rem;
+    height: 27rem;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+  .english {
+    width: 44.5rem;
+    height: 32.5rem;
+    font-size: 1.6rem;
+  }
+  .skills {
+    width: 44.5rem;
+    height: 29.5rem;
+  }
+  .skill {
+    display: flex;
+  }
+  .skillText {
+    margin-bottom: 0.4rem;
+  }
+  .computerSkill {
+    border-right: 1px solid #dddfe6;
+    width: 23.5rem;
+    height: 26.5rem;
+    font-size: 1.6rem;
+    margin-right: 1.9rem;
+  }
+  .computer {
+    width: 21.5rem;
+    height: 10.6rem;
+    margin-bottom: 0.5rem;
+  }
+  .certificate {
+    width: 21.5rem;
+    height: 15rem;
+    line-height: 1.6rem;
+  }
+  .otherSkill {
+    width: 22.5rem;
+    height: 26.5rem;
+    font-size: 1.6rem;
+    margin-right: 1rem;
+  }
+  .other {
+    width: 20.5rem;
+    height: 10.6rem;
+    margin-bottom: 0.5rem;
+  }
+  .license {
+    width: 20.5rem;
+    height: 15rem;
+    line-height: 2rem;
+  }
+  .portfolios {
+    margin-top: 2rem;
+    width: 44.5rem;
+    height: 58rem;
+  }
+  .portfolioContent {
+    display: flex;
+  }
+  .portfolioImg {
+    width: 27rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  .portfolioImg1 {
+    width: 14.9rem;
+    height: 10rem;
+    /* margin-right:0.8rem; */
+    margin-bottom: 1.5rem;
+  }
+  .portfolioImg2 {
+    width: 13rem;
+    height: 10rem;
+    margin-right: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .portfolioImg3 {
+    width: 14.5rem;
+    height: 10rem;
+  }
+  .portfolioText {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    margin-left: 1.3rem;
+    line-height: 2rem;
+  }
+  .portfolioText1 {
+    font-size: 1.1rem;
+    margin-top: 0.6rem;
+    width: 34.3rem;
+    padding-left: 1.8rem;
+    line-height: 2rem;
+  }
+  .portfolioText2 {
+    /* border:1px solid red; */
+    font-size: 1.1rem;
+    margin-top: 0.6rem;
+    line-height: 2rem;
+    width: 34.3rem;
+    padding-left: 6.4rem;
+  }
+  .portfolioText3 {
+    font-size: 1.1rem;
+    margin-top: 0.6rem;
+    padding-left: 112px;
+    line-height: 2rem;
+  }
+  .portfolioP {
+    white-space: nowrap;
+  }
+  .portfolioTextMargin2 {
+    margin-left: 5.9rem;
+  }
+  .talkGeneratorContent {
+    margin-bottom: 5rem !important;
+    /* border: 1px solid red; */
+  }
+  .experience {
+    /* outline: 1px solid red; */
+    width: 44.5rem;
+    height: 87.5rem;
+  }
+  .date {
+    margin-left: 19rem;
+    word-spacing: 1.6rem;
+  }
+  .frontendEngineerDate {
+    margin-left: 11.5rem;
+    /* word-spacing: 1rem;
+  white-space: nowrap; */
+  }
+  .administrationDate {
+    margin-left: 8.7rem;
+    word-spacing: 1rem;
+  }
+  .telemarketerDate {
+    margin-left: 12.5rem;
+    word-spacing: 1rem;
+  }
+  .telemarketer2Date {
+    margin-left: 13rem;
+    word-spacing: 1rem;
+  }
+  .nurseDate {
+    margin-left: 11.4rem;
+    word-spacing: 1rem;
+  }
+  .training {
+    width: 44.5rem;
+    height: 28rem;
+  }
+  .education {
+    width: 44.5rem;
+    height: 11.5rem;
+  }
+  .educationFlex {
+    display: flex;
+  }
+  .educationTitle {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 20rem;
+  }
+  .educationTitleH3 {
+    margin-top: 0.5rem;
+  }
+  .educationDate {
+    margin-left: -5rem;
+  }
 }
 
-.portfolios{
-	margin-top:2rem;
-	width:28rem;
-	height: 98.5rem;
-	}
-.portfolioContent{
- display:block; 
+@media (max-width: 760px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    /* align-items: flex-start; */
+    margin-top: 3rem;
+    height: auto;
+  }
+  .information {
+    width: 28rem;
+    height: 14.5rem;
+  }
+  .titleIcon {
+    font-size: 1.5rem;
+  }
+  .name {
+    font-size: 0.9rem;
+  }
+  .info {
+    font-size: 1.1rem;
+  }
+  .iconColor {
+    color: #c6e5d9;
+  }
+  .github {
+    margin-left: 23rem;
+  }
+  .introduction {
+    margin-top: 1.5rem;
+    width: 28rem;
+    height: 86rem;
+  }
+  .introductionText {
+    margin-bottom: 0.4rem;
+  }
+  .selfIntroduction {
+    display: block;
+  }
+  .chinese {
+    border-right: 1px solid transparent;
+    width: 27.6rem;
+    height: 29.5rem;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+  .chineseText {
+    font-size: 1.2rem;
+  }
+  .english {
+    border-top: 1px solid #dddfe6;
+    padding-top: 1.5rem;
+    width: 27.6rem;
+    height: 47.6rem;
+    font-size: 1.4rem;
+  }
+  .skills {
+    width: 28rem;
+    height: 53.7rem;
+  }
+  .skill {
+    display: block;
+  }
+  .skillText {
+    margin-bottom: 0.4rem;
+  }
+  .computerSkill {
+    border-bottom: 1px solid #dddfe6;
+    border-right: 1px solid transparent;
+    width: 27.6rem;
+    height: 23rem;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+  }
+  .computer {
+    font-size: 1.4rem;
+    width: 27.6rem;
+    height: 10rem;
+    margin-bottom: 0.4rem;
+  }
+  .computerUl {
+    font-size: 1rem;
+  }
+  .certificate {
+    font-size: 1.4rem;
+    width: 27.6rem;
+    height: 10.5rem;
+  }
+  .certificateUl {
+    font-size: 1rem;
+  }
+  .otherSkill {
+    width: 27.6rem;
+    height: 23rem;
+    font-size: 1.4rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+  }
+  .other {
+    width: 27.6rem;
+    height: 10.5rem;
+    margin-bottom: 0.4rem;
+  }
+  .otherUl {
+    margin-top: 1.2rem;
+    font-size: 1rem;
+  }
+  .license {
+    font-size: 1.4rem;
+    width: 27.6rem;
+    height: 12rem;
+  }
+  .licenseUl {
+    font-size: 1rem;
+  }
 
-}
-.portfolioImg{ 
-    margin-top:2rem;
-	margin-left:1rem; 
-	width:25rem;
-	height:7.6rem
-} 
-.portfolioImg1{
-	width:25rem;
-	height:7.6rem;
-	margin-right:0.8rem;
-	margin-bottom:3rem;
-	margin-top:3rem;
-}
-.portfolioImg2{
-	width:25rem;
-	height:7.6rem;
-	margin-right:0.8rem;
-	margin-bottom:3rem;
-	margin-top:3rem;
-}
-.portfolioImg3{
-	width:25rem;
-	height:7.6rem;
-	margin-top:3rem;
-}
-.portfolioText{
- font-size:1rem; 
- margin-top:3rem;
- margin-left:1rem;
- line-height: 2rem
-}
-.portfolioText1{
-	font-size:1rem; 
-	margin-top:0.6rem;
-	line-height: 2rem;
-	width:34.3rem;
-	padding-left:2rem;
-   }
-.portfolioText2{
-	/* border:1px solid red; */
-	font-size:1rem; 
-	margin-top:0.6rem;
-	line-height: 2rem;
-	width:34.3rem;
-	padding-left:7rem;
-   }
-.portfolioText3{
-	font-size:1rem; 
-	margin-top:3rem;
-	padding-left:6.9rem;
-	line-height: 2rem
-}
-.portfolioP{
-  white-space:nowrap
-}
-.portfolioTextMargin{
-  margin-left:0rem; 
-}
-.portfolioTextMargin2{
- margin-left:0rem; 
-}
-.experience{
-	
-    width:28rem;
-	height:79rem;
-	margin-top:-0.5rem;
-	
-} 
-.title{
-	font-size:1.4rem; 
-}
-.date{
-	font-size:1.4rem;
-	margin-left:17rem;
-	word-spacing:0rem ;
-}
-.administrationDate{
-	font-size:1.4rem;
-		margin-left: 7rem;
-		 word-spacing:0rem ; 
-}
-.telemarketerDate{
-	    font-size:1.4rem;
-		margin-left:2.5rem;
-		width:6rem;
-		word-spacing:0rem ;
-}
-.telemarketer2Date{
-	    font-size:1.4rem;
-		margin-left:9.7rem;
-		word-spacing:0rem ;
-		width:6rem;
-}
-.nurseDate{
-	    font-size:1.4rem;
-		margin-left:8.5rem;
-		word-spacing:0rem ;
-} 
-.title{
-	white-space: nowrap
-}
-.title ~ h3{
-	white-space: nowrap
-}
+  .portfolios {
+    margin-top: 2rem;
+    width: 28rem;
+    height: 98.5rem;
+  }
+  .portfolioContent {
+    display: block;
+  }
+  .portfolioImg {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 25rem;
+    height: 7.6rem;
+  }
+  .portfolioImg1 {
+    width: 25rem;
+    height: 7.6rem;
+    margin-right: 0.8rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  .portfolioImg2 {
+    width: 25rem;
+    height: 7.6rem;
+    margin-right: 0.8rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  .portfolioImg3 {
+    width: 25rem;
+    height: 7.6rem;
+    margin-top: 3rem;
+  }
+  .portfolioText {
+    font-size: 1rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    line-height: 2rem;
+  }
+  .portfolioText1 {
+    font-size: 1rem;
+    margin-top: 0.6rem;
+    line-height: 2rem;
+    width: 34.3rem;
+    padding-left: 2rem;
+  }
+  .portfolioText2 {
+    /* border:1px solid red; */
+    font-size: 1rem;
+    margin-top: 0.6rem;
+    line-height: 2rem;
+    width: 34.3rem;
+    padding-left: 7rem;
+  }
+  .portfolioText3 {
+    font-size: 1rem;
+    margin-top: 3rem;
+    padding-left: 6.9rem;
+    line-height: 2rem;
+  }
+  .portfolioP {
+    white-space: nowrap;
+  }
+  .portfolioTextMargin {
+    margin-left: 0rem;
+  }
+  .portfolioTextMargin2 {
+    margin-left: 0rem;
+  }
+  .experience {
+    width: 28rem;
+    height: 93rem;
+    margin-top: -22rem;
+  }
+  .title {
+    font-size: 1.4rem;
+  }
 
-.training{
-	
-	width:28rem;
-	height:29rem;
-	margin-top: -5rem;
-	margin-bottom: 0.5rem;
-	
-} 
-.trainingTitle{
-	font-size:0.8rem;
-}
-.trainingTitle2{
-	font-size:1.3rem;
-}
-.trainingTitle3{
-	font-size:0.8rem;
-}
-.education{
-  margin-top: -1rem;
-  width:28rem;
-  height:12rem;
-	
-}
-.educationFlex{
-	display:flex;
-	width:28rem;
-}
-.educationDate{
-font-size:1.4rem;
- margin-top:0.6rem;
- margin-left:1rem;   
- width:5.5rem; 
- word-spacing:0rem ;
- }
- .educationRelative{
-	position:relative; 
-}
-.educationTitleH2{
-	position:absolute;
-	white-space: nowrap;
-	left:2rem;
-	font-size:1.3rem;
-}
-.educationRelative2{
-	position:relative; 
-}
-.educationTitleH3{
-	position:absolute;
-	left:2rem;
-	top:2rem;
-  white-space: nowrap
-}
-.educationRelative3{
-		position:relative; 
-}
-.educationTitleAbsolute{
-	position:absolute;
-	left:2rem;
-	top:4rem;
-}
- 
+  .frontendEngineerDate {
+    margin-left: 5.4rem;
+    width: 10rem;
+    word-spacing: 0rem;
+  }
+  .date {
+    width: 10rem;
+    font-size: 1.4rem;
+    margin-left: 12.5rem;
+    word-spacing: 0rem;
+  }
+  .administrationDate {
+    width: 10rem;
+    font-size: 1.4rem;
+    margin-left: 3.2rem;
+    word-spacing: 0rem;
+  }
+  .telemarketerDate {
+    width: 10rem !important;
+    font-size: 1.4rem;
+    margin-left: 5.4rem;
+    width: 6rem;
+    word-spacing: 0rem;
+  }
+  .telemarketer2Date {
+    width: 10rem !important;
+    font-size: 1.4rem;
+    margin-left: 5.4rem;
+    word-spacing: 0rem;
+    width: 6rem;
+  }
+  .nurseDate {
+    width: 10rem;
+    font-size: 1.4rem;
+    margin-left: 4.6rem;
+    word-spacing: 0rem;
+  }
+  .title {
+    white-space: nowrap;
+  }
+  .title ~ h3 {
+    white-space: nowrap;
+  }
+
+  .training {
+    width: 28rem;
+    height: 29rem;
+    margin-top: -5rem;
+    margin-bottom: 0.5rem;
+  }
+  .trainingTitle {
+    font-size: 0.8rem;
+  }
+  .trainingTitle2 {
+    font-size: 1.3rem;
+  }
+  .trainingTitle3 {
+    font-size: 0.8rem;
+  }
+  .education {
+    margin-top: -1rem;
+    width: 28rem;
+    height: 12rem;
+  }
+  .educationFlex {
+    display: flex;
+    width: 28rem;
+  }
+  .educationDate {
+    font-size: 1.4rem;
+    margin-top: 0.6rem;
+    margin-left: -3rem;
+    width: 10rem;
+    word-spacing: 0rem;
+  }
+  .educationRelative {
+    position: relative;
+  }
+  .educationTitleH2 {
+    position: absolute;
+    white-space: nowrap;
+    left: 2rem;
+    font-size: 1.3rem;
+  }
+  .educationRelative2 {
+    position: relative;
+  }
+  .educationTitleH3 {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+    white-space: nowrap;
+  }
+  .educationRelative3 {
+    position: relative;
+  }
+  .educationTitleAbsolute {
+    position: absolute;
+    left: 2rem;
+    top: 4rem;
+  }
 }
