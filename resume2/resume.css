@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 img {
-  max-width: 100%;
+  /* max-width: 100%; */
   height: auto;
 }
 html,
@@ -269,14 +269,15 @@ ul {
 }
 .portfolios {
   margin-top: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 12rem;
   width: 75.5rem;
-  height: 51rem;
+  height: 55rem;
 }
 .portfolioContent {
   display: flex;
   margin-top: 1rem;
 }
+
 .portfolioImg {
   width: 27rem;
   height: 10rem;
@@ -286,6 +287,10 @@ ul {
 .portfolioImg1 {
   width: 39rem;
   height: 10rem;
+}
+
+.hourglassContent {
+  margin-bottom: 3rem !important;
 }
 
 .talkGeneratorContent {
@@ -309,7 +314,7 @@ ul {
 .portfolioText1 {
   font-size: 1.3rem;
   margin-top: 0.5rem;
-  margin-left: -0.5rem;
+  margin-left: -14rem;
   line-height: 2rem;
 }
 .portfolioText2 {
@@ -544,11 +549,20 @@ ul {
   .portfolios {
     margin-top: 2rem;
     width: 44.5rem;
-    height: 58rem;
+    height: 59rem;
   }
   .portfolioContent {
     display: flex;
   }
+
+  .hourglassContent {
+    margin-bottom: 0rem !important;
+  }
+
+  .talkGeneratorContent {
+    margin-bottom: 0rem !important;
+  }
+
   .portfolioImg {
     width: 27rem;
     margin-top: 1rem;
@@ -579,22 +593,23 @@ ul {
   .portfolioText1 {
     font-size: 1.1rem;
     margin-top: 0.6rem;
-    width: 34.3rem;
-    padding-left: 1.8rem;
+    margin-left: 6.4rem;
+    width: 80%;
     line-height: 2rem;
   }
   .portfolioText2 {
-    /* border:1px solid red; */
+    /* border: 1px solid red; */
     font-size: 1.1rem;
     margin-top: 0.6rem;
     line-height: 2rem;
-    width: 34.3rem;
-    padding-left: 6.4rem;
+    width: 80%;
+    margin-left: 7.5rem;
   }
   .portfolioText3 {
     font-size: 1.1rem;
     margin-top: 0.6rem;
-    padding-left: 112px;
+    width: 80%;
+    margin-left: 6.6rem;
     line-height: 2rem;
   }
   .portfolioP {
@@ -604,7 +619,7 @@ ul {
     margin-left: 5.9rem;
   }
   .talkGeneratorContent {
-    margin-bottom: 5rem !important;
+    margin-bottom: 0rem !important;
     /* border: 1px solid red; */
   }
   .experience {
@@ -661,11 +676,11 @@ ul {
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 883px) {
   .container {
     display: flex;
     flex-direction: column;
-    margin-left: 1rem;
+    margin-left: 4rem;
     /* align-items: flex-start; */
     margin-top: 3rem;
     height: auto;
@@ -780,7 +795,7 @@ ul {
   .portfolios {
     margin-top: 2rem;
     width: 28rem;
-    height: 100.5rem;
+    height: 112rem;
   }
   .portfolioContent {
     display: block;
@@ -820,21 +835,19 @@ ul {
     font-size: 1rem;
     margin-top: 0.6rem;
     line-height: 2rem;
-    width: 34.3rem;
-    padding-left: 2rem;
+    margin-left: 0.9rem;
   }
   .portfolioText2 {
     /* border:1px solid red; */
     font-size: 1rem;
     margin-top: 0.6rem;
     line-height: 2rem;
-    width: 34.3rem;
-    padding-left: 7rem;
+    margin-left: 0.9rem;
   }
   .portfolioText3 {
     font-size: 1rem;
     margin-top: 3rem;
-    padding-left: 6.9rem;
+    margin-left: 0.9rem;
     line-height: 2rem;
   }
   .portfolioP {
@@ -955,5 +968,16 @@ ul {
     position: absolute;
     left: 2rem;
     top: 4rem;
+  }
+}
+
+@media (max-width: 646px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    /* align-items: flex-start; */
+    margin-top: 3rem;
+    height: auto;
   }
 }
